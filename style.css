@@ -1,9 +1,50 @@
 /* CSS stylesheet */
 
+*, html, body {
+  font-family: Arial, Helvetica, sans-serif;
+}
 body {
-  /* background-color: yellow; */
+  background-color: rgb(184, 219, 233);
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+}
+h1 {
+  margin: 25px auto;
 }
 
+/* input div > #inputDivWrapper*/ 
+#inputDivWrapper {
+  margin: 5px auto;
+}
+label {
+  margin: 0px 10px;
+}
 input {
-  margin-bottom: 10px;
+  margin: 5px 10px 20px;
+}
+
+/* left div > #leftDiv*/
+#leftDiv {
+  /* margin: 0 auto;
+  width: 50%; */
+  float: left;
+}
+
+/* right div > #rightDiv*/
+#rightDiv {
+  width: 50%;
+  float: right;
+}
+
+/* button div > #buttonDiv */ 
+#buttonDiv {
+  clear: both;
+  display: flex;
+  /* margin: 0px auto; */
+  justify-content: center;
+}
+button {
+  background-color: rgb(194, 236, 181);
+  border-radius: 5px;
 }

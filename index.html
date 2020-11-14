@@ -3,51 +3,61 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Shipping Info</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header></header>
   <main>
     <div>
-      <div>
+      <h1>Enter Your Shipping Information</h1>
+    </div>
+    <div id="inputDivWrapper">
+      <!-- left div -->
+      <div id="leftDiv">
         <div>
-          <h1>Enter Your Shipping Information</h1>
+          <label>First name</label><br/>
+          <input id="firstName" type="text" />
         </div>
-        <label>First name</label><br/>
-        <input id="firstName" type="text" placeholder="">
+        <div>
+          <label>Street Address</label><br/>
+          <input id="addressOne" type="text" />
+        </div>
+        <div>
+          <label>City</label><br/>
+          <input id="city" type="text" />
+        </div>
+        <div>
+          <label>Zip Code</label><br/>
+          <input id="zipCode" type="number" />
+        </div>
       </div>
-      <div>
-        <label>Last Name</label><br/>
-        <input id="lastName" type="text" placeholder="Doe" >
+      <!-- right div -->
+      <div id="rightDiv">
+        <div>
+          <label>Last Name</label><br/>
+          <input id="lastName" type="text" />
+        </div>
+        
+        <div>
+          <label>Street Address 2</label><br/>
+          <input id="addressTwo" type="text" />
+        </div>
+        
+        <div>
+          <label>State</label><br/>
+          <input id="state" type="text" />
+        </div>
+  
+        <div>
+          <label>Age</label><br/>
+          <input id="age" type="number" />
+        </div> 
       </div>
-      <div>
-        <label>Street Address</label><br/>
-        <input id="addressOne" type="text" placeholder="Street Address 1">
-      </div>
-      <div>
-        <label>Street Address 2</label><br/>
-        <input id="addressTwo" type="text" placeholder="Unit/Apartment/Suite #">
-      </div>
-      <div>
-        <label>City</label><br/>
-        <input id="city" type="text" placeholder="City" >
-      </div>
-      <div>
-        <label>State</label><br/>
-        <input id="state" type="text" placeholder="State">
-      </div>
-      <div>
-        <label>Zip Code</label><br/>
-        <input id="zipCode" type="number" placeholder="Zip/Postal Code">
-      </div>
-      <div>
-        <label>Age</label><br/>
-        <input id="age" type="text" placeholder="Age">
-      </div> 
-      <div id="buttonDiv">
-        <button onclick="verifyInfo()">Verify Info</button> 
-      </div>
+    </div>
+    <!-- button div -->
+    <div id="buttonDiv">
+      <button onclick="verifyInfo()">Verify Info</button> 
     </div>
   </main>
   <footer></footer>
