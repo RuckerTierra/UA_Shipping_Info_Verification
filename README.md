@@ -1,4 +1,4 @@
-# UA_Shipping_Info_Verification
+# UA_Info_Verification
 Unlock.Academy Lesson 8 homework: Create a shipping information form that validates:  
 1. The first and last name are at least 5 characters 
 2. The age is at least 2 numbers 
