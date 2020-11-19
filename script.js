@@ -1,9 +1,8 @@
-/* Project: Verify information*/
+/* Project: Verify information */
 // Step 1: create variables to store information: DONE
-// Step 2: create a function to verify information: IN PROGRESS
-// Step 3: TBA
-// Step 4: Test project: IN PROGRESS
-// Project: IN PROGRESS
+// Step 2: create a function to verify information: DONE
+// Step 3: Testing: DONE
+// Project: DONE
 
 
 // Step 1: create variables to store information
@@ -115,7 +114,5 @@ if (zipCodeLength < 5){
   } else {
     console.log("Success! The age, " + age + ",  was accepted.");
   }
-  document.getElementById("zipCode").value = "";  
-  console.log("---------------------------------------------------");
-
+  document.getElementById("age").value = "";  
 } 
