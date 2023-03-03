@@ -8,9 +8,11 @@ body {
   margin: 10px auto;
   display: flex;
   justify-content: center;
+  text-align: center;
+  font-size:22px;
 }
 h1 {
-  margin: 25px auto;
+  margin: 35px auto 50px;
 }
 
 /* input div > #inputDivWrapper*/ 
