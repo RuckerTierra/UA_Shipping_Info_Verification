@@ -24,6 +24,10 @@ label {
 }
 input {
   margin: 5px 10px 20px;
+  width: 200px;
+}
+.largeInput {
+  width: 300px;
 }
 
 /* left div > #leftDiv*/
@@ -49,4 +53,6 @@ input {
 button {
   background-color: rgb(194, 236, 181);
   border-radius: 5px;
+  font-size:18px;
+  padding:10px 20px;
 }

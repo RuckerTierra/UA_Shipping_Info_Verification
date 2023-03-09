@@ -7,54 +7,59 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header></header>
+  <header>
+
+  </header>
   <main>
     <div>
       <h1>Enter Your Shipping Information</h1>
     </div>
+
     <div id="inputDivWrapper">
       <!-- left div -->
       <div id="leftDiv">
         <div>
-          <label>First name</label><br/>
+          <label name="firstName">First name</label><br/>
           <input id="firstName" type="text" />
         </div>
         <div>
-          <label>Street Address</label><br/>
+          <label name="addressOne">Street Address</label><br/>
           <input id="addressOne" type="text" />
         </div>
         <div>
-          <label>City</label><br/>
+          <label name="city">City</label><br/>
           <input id="city" type="text" />
         </div>
         <div>
-          <label>Zip Code</label><br/>
+          <label name="zipCode">Zip Code</label><br/>
           <input id="zipCode" type="number" />
         </div>
       </div>
+
       <!-- right div -->
       <div id="rightDiv">
         <div>
-          <label>Last Name</label><br/>
+          <label name="lastName">Last Name</label><br/>
           <input id="lastName" type="text" />
         </div>
         
         <div>
-          <label>Street Address 2</label><br/>
+          <label name="addressTwo">Street Address 2</label><br/>
           <input id="addressTwo" type="text" />
         </div>
         
         <div>
-          <label>State</label><br/>
+          <label name="state">State</label><br/>
           <input id="state" type="text" />
         </div>
   
         <div>
-          <label>Age</label><br/>
+          <label name="age">Age</label><br/>
           <input id="age" type="number" />
         </div> 
       </div>
     </div>
+
     <!-- button div -->
     <div id="buttonDiv">
       <button onclick="verifyInfo()">Verify Info</button> 
